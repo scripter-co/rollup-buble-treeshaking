@@ -1,0 +1,17 @@
+{
+  "name": "rollup-babel-buble-treeshaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "48": "npm i rollup@0.48.0 && rollup -c && cat bundle.js",
+    "50": "npm i rollup@0.50.0 && rollup -c && cat bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inferno": "^3.10.1",
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0"
+  }
+}
