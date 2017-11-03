@@ -25,7 +25,7 @@ export default {
 We will be trying to bundle the following file:
 
 ```javascript
-import {simpleComponent} from 'components';
+import {simpleComponent} from './components/index';
 
 simpleComponent();
 ```
