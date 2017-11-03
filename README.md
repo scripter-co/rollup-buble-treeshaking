@@ -129,3 +129,7 @@ simpleComponent();
 
 }(Component));
 ```
+
+## Issue related to this on rollup
+
+https://github.com/rollup/rollup/issues/1691
